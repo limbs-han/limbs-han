@@ -1,16 +1,44 @@
-## Hi there 👋
+# 사지한
 
-<!--
-**limbs-han/limbs-han** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+데이터의 구조를 정하고, 옮기고, 원본과 건수가 같은지 확인하는 일을 합니다.
+데이터 아키텍처와 데이터 엔지니어링을 지향하는 신입입니다.
+창원대학교 정보통신공학과 (2026.02 졸업)
 
-Here are some ideas to get you started:
+📧 jihan0469@gmail.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 프로젝트
+
+| | 기간 | 역할 | 한 것 | 스택 |
+|---|---|---|---|---|
+| [**Hannun**](https://github.com/limbs-han/Hannun) 한눈 - 뉴스 중복 제거 및 관점 분석 | 2026.08 ~ 09 | 팀장, 데이터 엔지니어 | 13개 언론사 기사를 같은 사건으로 묶는 파이프라인 전 구간 단독 담당. 과거 6년치 1,110만 건 이관 후 전후 대조 일치. 날짜 형식이 섞인 약 50만 건을 전수 조사로 찾아 변환 규칙 수정 | PySpark, Kafka, HDFS, Iceberg, Airflow, Docker, MySQL |
+| [**Bbanggeut**](https://github.com/limbs-han/Bbanggeut) 빵긋 - 웃음 감지 AI 홈캠 | 2026.07 ~ 08 | PM 및 AI 파트, ERD 초안 | 추억의 주인을 기기가 아닌 금고로 두어 기기를 바꿔도 가족 권한과 영상이 남는 구조 설계. 백엔드가 개발하며 테이블 22개로 확장. SSAFY 공통 프로젝트 우수상 | Python, ERD |
+| [**vaKance**](https://github.com/vakance/vakance) K-콘텐츠 여행 계획 | 2026.06 | 백엔드 | 테이블 16개 스키마 최초 설계. 번역 데이터 163건 이행 중 중복 키로 멈추자 REPLACE INTO로 바꿔 재실행해도 결과가 같게 수정 | Java, Spring Boot, JPA, MySQL |
+| [**namu-reco**](https://github.com/limbs-han/namu-reco) 나무위키 개인화 추천 | 2026.08 | 1인 | 8.8GB 덤프에서 문서 52만 건, 링크 1,900만 건 추출. 게시 전 품질 기준(링크 해석률 90%)을 먼저 정하고 실측 95.6%로 확인. 크롬 웹스토어 첫 제출 통과 | Python, Chrome Extension |
+
+## 스킬
+
+| 분야 | |
+|---|---|
+| 데이터 모델링 | DA# |
+| 데이터베이스 | MySQL, MariaDB |
+| 데이터 처리 | PySpark, Kafka, HDFS, Iceberg, Airflow |
+| 프로그래밍 | Python, Java, Spring Boot |
+| 인프라 및 협업 | Docker, AWS EC2, Linux, Git, Jira, Notion |
+
+## 자격증
+
+| 자격증 | 발급기관 | 취득 |
+|---|---|---|
+| 정보처리기사 | 한국산업인력공단 | 2026.09 |
+| 데이터아키텍처 준전문가(DAsP) | 한국데이터산업진흥원 | 2025.04 |
+| SQL 개발자(SQLD) | 한국데이터산업진흥원 | 2024.06 |
+| 네트워크관리사 2급 | 한국정보통신자격협회 | 2024.05 |
+
+## 교육 및 수상
+
+| 구분 | 내용 | 기관 | 시기 |
+|---|---|---|---|
+| 교육 | 삼성 청년 SW AI 아카데미(SSAFY) 15기, Java 전공 | 삼성전자 | 2026.01 ~ 2026.12 |
+| 수상 | SSAFY 공통 프로젝트 우수상 (빵긋) | 삼성전자 | 2026.08 |
+| 수상 | 우수논문 장려상 (GAN 기반 CNC 설비 이상탐지) | 한국전기전자학회 | 2025.08 |
+| 수상 | 이래가꼬 프로젝트 장려상 (다빈소프트 연계) | 경남테크노파크 | 2025.11 |
