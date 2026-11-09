@@ -2,8 +2,8 @@
 
 # 사지한
 
-**데이터의 구조를 정하고, 옮기고, 원본과 건수가 같은지 확인하는 일을 합니다.**<br>
-데이터 아키텍처와 데이터 엔지니어링을 지향하는 신입입니다.
+**끝났다고 생각할 때 한 번 더 확인합니다.**<br>
+신입 데이터 엔지니어를 준비하고 있습니다.
 
 [![Gmail](https://img.shields.io/badge/jihan0469@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jihan0469@gmail.com)
 
@@ -19,9 +19,9 @@
 
 `2026.08 ~ 09` `팀장, 데이터 엔지니어`
 
-- 13개 언론사 기사를 같은 사건으로 묶는 파이프라인 전 구간 단독 담당
-- 과거 6년치 **1,110만 건** 이관 후 전후 대조 일치
-- 날짜 형식이 섞인 약 **50만 건**을 전수 조사로 찾아 변환 규칙 수정
+- 13개 언론사의 기사 수집, 저장, 분석팀 입력 전달을 담당
+- Iceberg 전환 직전에 두 저장소의 **11,153,241건**을 다시 대조
+- 분석팀 입력 추출 시간 **46.6초 → 20.1초**
 
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
@@ -33,11 +33,11 @@
 
 ### [CherryConsume](https://github.com/limbs-han/CherryConsume) · 체리컨슘 &nbsp;<sub>카드 실적·혜택 계산 앱</sub>
 
-`2026.09 ~ 진행 중` `1인, 기획부터 출시까지`
+`2026.09 ~ 10` `개인 프로젝트`
 
-- 카드사 공식 문구로 카드 **20장**의 실적과 혜택 규칙을 카탈로그로 정리하고, 서버 없이 폰 안에서 계산하는 Android 앱
-- Databricks에서 카드사 원문 수집, LLM 혜택 추출, 사람 검수를 거쳐 카탈로그를 저장소에 반영하는 파이프라인 구성
-- 앱 시험 **756개**로 계산 규칙을 지키며 Play 스토어 출시 준비 중
+- 카드 약관을 수집하고 혜택 추출 초안과 검수를 통과한 규칙을 분리
+- Databricks에서 내보낸 **승인 카탈로그 692장**을 앱에 반영
+- 초기 계산 엔진을 명세서와 대조해 **187건 중 170건 일치**, 나머지 17건의 원인을 분류
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
@@ -61,8 +61,9 @@
 
 `2026.06` `백엔드`
 
-- 테이블 **16개** 스키마 최초 설계
-- 번역 데이터 163건 이행 중 중복 키로 멈추자 `REPLACE INTO`로 바꿔 재실행해도 결과가 같게 수정
+- **장소 추천 백엔드 구현** — MySQL에서 지역과 카테고리로 장소를 조회해 챗봇의 답변에 활용했습니다. 후보가 5개 미만이면 카테고리 조건을 풀어 같은 지역에서 후보를 보충했습니다.
+- **MySQL 스키마 설계** — 여행 계획 서비스의 초기 테이블 16개를 설계하고, 스키마와 초기 데이터를 적용하는 SQL을 작성했습니다.
+- **영문 콘텐츠 163건 이관** — 중복 키로 적재가 중단되자 기존 키의 데이터를 교체하도록 SQL을 수정했습니다. Docker에서 초기 데이터를 적재할 때 발생한 UTF-8 인코딩 오류도 해결했습니다.
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -71,11 +72,11 @@
 
 ### [namu-reco](https://github.com/limbs-han/namu-reco) &nbsp;<sub>나무위키 개인화 추천</sub>
 
-`2026.08` `1인`
+`2026.08 ~ 09` `1인`
 
-- 8.8GB 덤프에서 문서 **52만 건**, 링크 **1,900만 건** 추출
-- 게시 전 품질 기준(링크 해석률 90%)을 먼저 정하고 실측 <b>95.6%</b>로 확인
-- 크롬 웹스토어 첫 제출 통과
+- 8.8GB 덤프에서 문서 **521,633개**, 링크 **19,015,524개** 가공
+- 문서 간 추천 관계를 미리 계산해 파일로 배포
+- 열람 기록은 브라우저에 저장하고 개인화에 활용
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
