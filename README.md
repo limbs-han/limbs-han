@@ -1,9 +1,12 @@
 <div align="center">
 
-# 사지한
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
+  <img src="assets/profile-banner-light.svg" width="720" alt="사지한 · 데이터 엔지니어">
+</picture>
 
 **끝났다고 생각할 때 한 번 더 확인합니다.**<br>
-신입 데이터 엔지니어를 준비하고 있습니다.
+결과가 기대한 값과 맞는지 보고, 차이가 있으면 어디서 생겼는지 찾아 기록합니다.
 
 [![Gmail](https://img.shields.io/badge/jihan0469@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jihan0469@gmail.com)
 
