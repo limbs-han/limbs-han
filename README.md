@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
-  <img src="assets/profile-banner-light.svg" width="720" alt="사지한 · 데이터 엔지니어">
-</picture>
+# 사지한
 
 **끝났다고 생각할 때 한 번 더 확인합니다.**<br>
 결과가 기대한 값과 맞는지 보고, 차이가 있으면 어디서 생겼는지 찾아 기록합니다.
