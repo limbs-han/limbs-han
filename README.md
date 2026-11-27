@@ -2,8 +2,9 @@
 
 # 사지한
 
-**끝났다고 생각할 때 한 번 더 확인합니다.**<br>
-결과가 기대한 값과 맞는지 보고, 차이가 있으면 어디서 생겼는지 찾아 기록합니다.
+**데이터의 구조와 흐름을 함께 설계하는 데이터 엔지니어**<br>
+뉴스, 악보, 카드 약관처럼 형식이 제각각인 원본을 하나의 형식으로 맞추고,<br>
+서비스까지 이어지는 흐름을 만듭니다.
 
 [![Gmail](https://img.shields.io/badge/jihan0469@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jihan0469@gmail.com)
 
@@ -11,78 +12,50 @@
 |:---:|:---:|:---:|
 | 국립창원대학교 정보통신공학과<br>2026.02 졸업 | 삼성 청년 SW AI 아카데미(SSAFY) 15기<br>2026.01 ~ 2026.12 | 정보처리기사 · DAsP · SQLD<br>네트워크관리사 2급 |
 
+
 </div>
 
 ## 프로젝트
 
-### [Hannun](https://github.com/limbs-han/Hannun) · 한눈 &nbsp;<sub>뉴스 중복 제거 및 관점 분석</sub>
+### [한눈](https://github.com/limbs-han/Hannun) &nbsp;<sub>13개 언론사의 뉴스를 사건별로 묶고 관점을 비교하는 서비스</sub>
 
-`2026.08 ~ 09` `팀장, 데이터 엔지니어`
+`2026.08 ~ 09` `5인 팀` `팀장, 데이터 엔지니어`
 
-- 13개 언론사의 기사 수집, 저장, 분석팀 입력 전달을 담당
-- Iceberg 전환 직전에 두 저장소의 **11,153,241건**을 다시 대조
-- 분석팀 입력 추출 시간 **46.6초 → 20.1초**
+- 정제 기사 **1,115만 건**을 15분 주기로 갱신
+- Python, PySpark, Kafka, Airflow, HDFS, Iceberg, Docker
 
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![HDFS](https://img.shields.io/badge/HDFS-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
-![Iceberg](https://img.shields.io/badge/Iceberg-4E8EE9?style=flat-square&logo=apache&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+### [체리컨슘](https://github.com/limbs-han/CherryConsume) &nbsp;<sub>카드별 실적과 혜택을 계산해 결제할 카드를 추천하는 앱</sub>
 
-### [CherryConsume](https://github.com/limbs-han/CherryConsume) · 체리컨슘 &nbsp;<sub>카드 실적·혜택 계산 앱</sub>
+`2026.09 ~ 10` `1인 개발`
 
-`2026.09 ~ 10` `개인 프로젝트`
+- 카드사 10곳에서 수집해 승인한 카드 **692종**을 앱에 반영
+- Python, Databricks, PySpark, Delta Lake
 
-- 카드 약관을 수집하고 혜택 추출 초안과 검수를 통과한 규칙을 분리
-- Databricks에서 내보낸 **승인 카탈로그 692장**을 앱에 반영
-- 초기 계산 엔진을 명세서와 대조해 **187건 중 170건 일치**, 나머지 17건의 원인을 분류
+### [얼쑤](https://team-edo.github.io/posts/2026/11/octave-error-in-music-scoring/) &nbsp;<sub>정간보 악보와 연주를 비교해 채점하는 국악기 연습 앱</sub>
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+`2026.10 ~ 11` `6인 팀` `데이터 엔지니어, 악보 인식과 채점 엔진 설계`
 
-### [Bbanggeut](https://github.com/limbs-han/Bbanggeut) · 빵긋 &nbsp;<sub>웃음 감지 AI 홈캠</sub>
+- 악보 인식 율명 정확도 **63% → 80%**
+- Python, MySQL, OpenCV, librosa
 
-`2026.07 ~ 08` `PM 및 AI 파트, ERD 초안` `SSAFY 공통 프로젝트 우수상`
+### [namu-reco](https://github.com/limbs-han/namu-reco) &nbsp;<sub>읽은 나무위키 문서로 다음 문서를 추천하는 크롬 확장 프로그램</sub>
 
-- 추억의 주인을 기기가 아닌 금고로 두어 기기를 바꿔도 가족 권한과 영상이 남는 구조 설계
-- 백엔드가 개발하며 테이블 **22개**로 확장
+`2026.08 ~ 09` `1인 개발` [`크롬 웹스토어`](https://chromewebstore.google.com/detail/ndmfdfbdinhapjajelhfohchljncilme)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![ERD](https://img.shields.io/badge/ERD-555555?style=flat-square)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+- 8.8GB 덤프에서 실제 문서 **521,633개**를 가공해 정적 파일로 배포
+- Python, PySpark
 
-### [vaKance](https://github.com/vakance/vakance) &nbsp;<sub>K-콘텐츠 여행 계획</sub>
+### GAN 기반 CNC 이상탐지 &nbsp;<sub>CNC 가공 설비의 부하 패턴에서 이상을 찾는 다빈소프트 연계 프로젝트</sub>
 
-`2026.06` `백엔드`
+`2025.04 ~ 06` `4인 팀` `전처리, GAN 구현`
 
-- **장소 추천 백엔드 구현** — MySQL에서 지역과 카테고리로 장소를 조회해 챗봇의 답변에 활용했습니다. 후보가 5개 미만이면 카테고리 조건을 풀어 같은 지역에서 후보를 보충했습니다.
-- **MySQL 스키마 설계** — 여행 계획 서비스의 초기 테이블 16개를 설계하고, 스키마와 초기 데이터를 적용하는 SQL을 작성했습니다.
-- **영문 콘텐츠 163건 이관** — 중복 키로 적재가 중단되자 기존 키의 데이터를 교체하도록 SQL을 수정했습니다. Docker에서 초기 데이터를 적재할 때 발생한 UTF-8 인코딩 오류도 해결했습니다.
+- 레이블 없는 설비 데이터로 이상 판정 기준을 만들어, 이상을 넣은 시험에서 재현율 **100%**
+- Python, PyTorch, GAN
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+## 그 밖의 프로젝트
 
-### [namu-reco](https://github.com/limbs-han/namu-reco) &nbsp;<sub>나무위키 개인화 추천</sub>
-
-`2026.08 ~ 09` `1인`
-
-- 8.8GB 덤프에서 문서 **521,633개**, 링크 **19,015,524개** 가공
-- 문서 간 추천 관계를 미리 계산해 파일로 배포
-- 열람 기록은 브라우저에 저장하고 개인화에 활용
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+- [빵긋](https://github.com/limbs-han/Bbanggeut) 웃음 감지 AI 홈캠 | `2026.07 ~ 08` `PM, AI` `SSAFY 공통 프로젝트 우수상`
+- [vaKance](https://github.com/vakance/vakance) K-콘텐츠 여행 계획 | `2026.06` `백엔드`
 
 ## 스킬
 
@@ -92,7 +65,7 @@
 | 데이터베이스 | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) |
 | 데이터 처리 | ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![HDFS](https://img.shields.io/badge/HDFS-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![Iceberg](https://img.shields.io/badge/Iceberg-4E8EE9?style=flat-square&logo=apache&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) |
 | 프로그래밍 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
-| 인프라 및 협업 | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white) |
+| 인프라 및 협업 | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white) |
 
 ## 자격증
 
