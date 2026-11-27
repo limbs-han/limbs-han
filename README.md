@@ -21,36 +21,56 @@
 
 `2026.08 ~ 09` `5인 팀` `팀장, 데이터 엔지니어`
 
-- 정제 기사 **1,115만 건**을 15분 주기로 갱신
-- Python, PySpark, Kafka, Airflow, HDFS, Iceberg, Docker
+정제 기사 **1,115만 건**을 15분 주기로 갱신
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![HDFS](https://img.shields.io/badge/HDFS-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
+![Iceberg](https://img.shields.io/badge/Iceberg-4E8EE9?style=flat-square&logo=apache&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### [체리컨슘](https://github.com/limbs-han/CherryConsume) &nbsp;<sub>카드별 실적과 혜택을 계산해 결제할 카드를 추천하는 앱</sub>
 
 `2026.09 ~ 10` `1인 개발`
 
-- 카드사 10곳에서 수집해 승인한 카드 **692종**을 앱에 반영
-- Python, Databricks, PySpark, Delta Lake
+카드사 10곳에서 수집해 승인한 카드 **692종**을 앱에 반영
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=flat-square)
 
 ### [얼쑤](https://team-edo.github.io/posts/2026/11/octave-error-in-music-scoring/) &nbsp;<sub>정간보 악보와 연주를 비교해 채점하는 국악기 연습 앱</sub>
 
 `2026.10 ~ 11` `6인 팀` `데이터 엔지니어, 악보 인식과 채점 엔진 설계`
 
-- 악보 인식 율명 정확도 **63% → 80%**
-- Python, MySQL, OpenCV, librosa
+악보 인식 율명 정확도 **63% → 80%**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![librosa](https://img.shields.io/badge/librosa-4D4D4D?style=flat-square)
 
 ### [namu-reco](https://github.com/limbs-han/namu-reco) &nbsp;<sub>읽은 나무위키 문서로 다음 문서를 추천하는 크롬 확장 프로그램</sub>
 
 `2026.08 ~ 09` `1인 개발` [`크롬 웹스토어`](https://chromewebstore.google.com/detail/ndmfdfbdinhapjajelhfohchljncilme)
 
-- 8.8GB 덤프에서 실제 문서 **521,633개**를 가공해 정적 파일로 배포
-- Python, PySpark
+8.8GB 덤프에서 실제 문서 **521,633개**를 가공해 정적 파일로 배포
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 
 ### GAN 기반 CNC 이상탐지 &nbsp;<sub>CNC 가공 설비의 부하 패턴에서 이상을 찾는 다빈소프트 연계 프로젝트</sub>
 
 `2025.04 ~ 06` `4인 팀` `전처리, GAN 구현`
 
-- 레이블 없는 설비 데이터로 이상 판정 기준을 만들어, 이상을 넣은 시험에서 재현율 **100%**
-- Python, PyTorch, GAN
+레이블 없는 설비 데이터로 이상 판정 기준을 만들어, 이상을 넣은 시험에서 재현율 **100%**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![GAN](https://img.shields.io/badge/GAN-555555?style=flat-square)
 
 ## 그 밖의 프로젝트
 
